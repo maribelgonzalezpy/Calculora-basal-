@@ -1,0 +1,63 @@
+body{
+    background-color: aliceblue;
+    font-family: "monserrat" ,sans-serif;
+    text-align: center;
+}
+#contenedor {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: blueviolet;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#formulario {
+    background-color: rgb(0, 255, 255);
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+#detalle {
+    background-color: rgb(27, 198, 228);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contenido{
+        top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;   
+}
+imput{
+    padding: 10px;
+    border: none;
+    font-family: monstserrat, sans-serif;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+ button{
+    padding: 12px 30px;
+    font-size: 15px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: monstserrat, sans-serif;
+    background-color: aliceblue;
+    border: none;
+    border-radius:15px;
+    color: blue;
+   letter-spacing: 1px;
+
+
+ }  
+ volumen{
+    color: aqua;
+    font-size: 25px;
+    
+ }
+    
